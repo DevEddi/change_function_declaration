@@ -1,3 +1,7 @@
+'''
+Esse commit não está com alteração de função
+'''
+
 def verificaFuncao(x):
     if valor % 2 == 0:
         print('Número par')

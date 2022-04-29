@@ -1,5 +1,5 @@
 '''
-Esse commit não está com alteração de função
+Esse código está sendo usado a refatoração
 '''
 
 def verificaFuncao(x):

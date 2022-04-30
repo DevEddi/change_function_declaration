@@ -7,11 +7,12 @@ def verificaParouImpar(x):
 if __name__ == "__main__":
 
     while True:
-        valor = int(input('Digite um valor:'))
-        print(verificaParouImpar(valor))
-        y = input('Deseja continuar? (S|N): ').upper()
-        if y == 'N':
-            break
-
-        print('Digite apenas números')
+        try:
+            valor = int(input('Digite um valor:'))
+            print(verificaParouImpar(valor))
+            y = input('Deseja continuar? (S|N): ').upper()
+            if y == 'N':
+                break
+        except:
+            print('Digite apenas números')
 
